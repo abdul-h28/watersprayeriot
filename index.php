@@ -35,6 +35,13 @@ $row2 = $stmt2->fetch(PDO::FETCH_ASSOC);
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     <!-- <link rel="icon" href="img/udb.jpg" type="image/x-icon"> -->
 
+    <script>
+        // JavaScript untuk auto reload halaman setiap 10 detik
+        setTimeout(function(){
+            window.location.reload(1);
+        }, 10000); // 10000 ms = 10 detik
+    </script>
+
 </head>
 
 <body id="page-top">
